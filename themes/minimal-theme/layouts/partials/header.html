@@ -1,0 +1,11 @@
+<!-- Breadcrumb Navigation Example from https://gohugo.io/content-management/sections/
+  -->
+themes/minimal-theme/layouts/partials/header.html<br/>
+{{- range .Ancestors.Reverse }}
+<a href="{{ .Permalink }}">{{ .Title }}</a> &gt;
+{{- end }}
+
+<bold>
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+</bold>
+(BreadCrumb Navigation Example)
