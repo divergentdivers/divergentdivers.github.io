@@ -1,5 +1,0 @@
-baseURL = 'https://divergentdivers.de'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "minimal-theme"
-sectionPagesMenu = "main"
